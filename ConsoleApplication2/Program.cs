@@ -77,7 +77,15 @@ namespace ConsoleApplication2
             int first = int.Parse(Console.ReadLine());
             Console.WriteLine("请输入第二个数");
             int second = int.Parse(Console.ReadLine());
-            Console.WriteLine()
+            Console.WriteLine("请输入运算符");
+            string f = Console.ReadLine();
+            if (f=="+") {
+                Console.WriteLine("{0}+{1}={2}", first, second, first + second);
+            }else if (f=="-")
+            {
+                Console.WriteLine("{0}-{1}={2}", first, second, first - second);
+
+            }
 
 
 
