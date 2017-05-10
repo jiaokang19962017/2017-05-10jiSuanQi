@@ -73,25 +73,63 @@ namespace ConsoleApplication2
 
             //}
             #endregion
+            #region if-else
+            //Console.WriteLine("请输入第一个数");
+            //int first = int.Parse(Console.ReadLine());
+            //Console.WriteLine("请输入第二个数");
+            //int second = int.Parse(Console.ReadLine());
+            //Console.WriteLine("请输入运算符");
+            //string f = Console.ReadLine();
+            //if (f == "+")
+            //{
+            //    Console.WriteLine("{0}+{1}={2}", first, second, first + second);
+            //}
+            //else if (f == "-")
+            //{
+            //    Console.WriteLine("{0}-{1}={2}", first, second, first - second);
+            //}
+            //else if (f == "*")
+            //{
+            //    Console.WriteLine("{0}*{1}={2}", first, second, first * second);
+            //}
+            //else if (f == "/")
+            //{
+            //    Console.WriteLine("{0}/{1}={2}", first, second, first / second);
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("您输入有误,请检查运算符重新输入");
+
+            //}
+            #endregion
+            #region switch
             Console.WriteLine("请输入第一个数");
             int first = int.Parse(Console.ReadLine());
             Console.WriteLine("请输入第二个数");
             int second = int.Parse(Console.ReadLine());
-            Console.WriteLine("请输入运算符");
+            Console.WriteLine("请输入运算符数");
             string f = Console.ReadLine();
-            if (f=="+") {
-                Console.WriteLine("{0}+{1}={2}", first, second, first + second);
-            }else if (f=="-")
+            
+            switch (f)
             {
-                Console.WriteLine("{0}-{1}={2}", first, second, first - second);
-            }else if (f=="*")
-            {
-                Console.WriteLine("{0}*{1}={2}", first, second, first * second);
-
+                case "+":
+                    Console.WriteLine("{0}+{1}={2}",first,second,first+second);
+                    break;
+                case "-":
+                    Console.WriteLine("{0}-{1}={2}", first, second,first - second);
+                    break;
+                case "*":
+                    Console.WriteLine("{0}*{1}={2}", first, second, first * second);
+                    break;
+                case "/":
+                    Console.WriteLine("{0}/{1}={2}", first, second, first / second);
+                    break;
+                default:
+                    Console.WriteLine("输入有误,请检查运算符后重新输入");
+                    break;
             }
-
-
-
+            #endregion
         }
     }
 }
