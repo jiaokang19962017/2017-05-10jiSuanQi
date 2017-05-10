@@ -49,8 +49,10 @@ namespace ConsoleApplication2
             //}
 
             #endregion
+            #region 时间
             int time = int.Parse(Console.ReadLine());
-            switch (time) {
+            switch (time)
+            {
                 case 6:
                     Console.WriteLine("起床时间");
                     break;
@@ -70,6 +72,8 @@ namespace ConsoleApplication2
 
 
             }
+            #endregion
+
 
 
 
