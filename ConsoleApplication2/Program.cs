@@ -84,6 +84,9 @@ namespace ConsoleApplication2
             }else if (f=="-")
             {
                 Console.WriteLine("{0}-{1}={2}", first, second, first - second);
+            }else if (f=="*")
+            {
+                Console.WriteLine("{0}*{1}={2}", first, second, first * second);
 
             }
 
