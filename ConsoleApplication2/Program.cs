@@ -10,6 +10,14 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("请输入第一个数");
+            int first;
+            first = int.Parse(Console.ReadLine());
+            Console.WriteLine("请输入第二个数");
+            int second;
+            second = int.Parse(Console.ReadLine());
+            Console.WriteLine("{0}加{1}的和是:{2}", first, second, first + second);
+
         }
     }
 }
