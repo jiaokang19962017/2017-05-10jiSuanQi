@@ -50,30 +50,34 @@ namespace ConsoleApplication2
 
             #endregion
             #region 时间
-            int time = int.Parse(Console.ReadLine());
-            switch (time)
-            {
-                case 6:
-                    Console.WriteLine("起床时间");
-                    break;
-                case 7:
-                    Console.WriteLine("吃饭时间");
-                    break;
-                case 8:
-                    Console.WriteLine("上课时间");
-                    break;
-                case 9:
-                case 10:
-                    Console.WriteLine("早上好");
-                    break;
-                default:
-                    Console.WriteLine("请勿打扰");
-                    break;
+            //int time = int.Parse(Console.ReadLine());
+            //switch (time)
+            //{
+            //    case 6:
+            //        Console.WriteLine("起床时间");
+            //        break;
+            //    case 7:
+            //        Console.WriteLine("吃饭时间");
+            //        break;
+            //    case 8:
+            //        Console.WriteLine("上课时间");
+            //        break;
+            //    case 9:
+            //    case 10:
+            //        Console.WriteLine("早上好");
+            //        break;
+            //    default:
+            //        Console.WriteLine("请勿打扰");
+            //        break;
 
 
-            }
+            //}
             #endregion
-
+            Console.WriteLine("请输入第一个数");
+            int first = int.Parse(Console.ReadLine());
+            Console.WriteLine("请输入第二个数");
+            int second = int.Parse(Console.ReadLine());
+            Console.WriteLine()
 
 
 
